@@ -25,6 +25,43 @@
         <img class="home-image" src="../assets/images/tan.jpg" alt="placeholder">
     </div>
 
+    
+
+
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script>
+        $(document).ready(function() {
+
+            $(".content-box").click(function() {
+                $(".content-box").animate({
+                    width: '500px',
+                    height: '+=200px'
+
+                }, 1000);
+                $(".content-after").show().animate({opacity: '1'}, 3000);
+            });
+        
+        });
+    </script>
+</head>
+<body>
+
+<div class="content-box">
+    <p class="content-before">About</p>
+    <p class="content-after">To showcase my prospective work of music business, I plan to upload future assignments and projects in this portfolio. In hopes of creating a professional portfolio that displays my work, I plan to experience new opportunities throughout my years studying at Columbia College Chicago.</p>
+</div>
+
+
+
 
 
 </body>
